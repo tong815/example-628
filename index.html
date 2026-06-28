@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Math Choice Visualizer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="app-shell">
+    <section class="quiz-panel" aria-labelledby="app-title">
+      <header class="quiz-header">
+        <div>
+          <p class="eyebrow">Student Math Practice</p>
+          <h1 id="app-title">Math Choice Visualizer</h1>
+        </div>
+        <div class="score-box" aria-live="polite">
+          <span id="score-text">Correct: 0 / Answered: 0</span>
+        </div>
+      </header>
+
+      <div class="progress-row">
+        <span id="progress-text">Loading questions...</span>
+        <div class="progress-track" aria-hidden="true">
+          <div id="progress-bar" class="progress-bar"></div>
+        </div>
+      </div>
+
+      <article class="question-card">
+        <h2 id="question-text">Please wait...</h2>
+        <div id="options-list" class="options-list"></div>
+      </article>
+
+      <section id="feedback-box" class="feedback-box hidden" aria-live="polite">
+        <h3 id="feedback-title"></h3>
+        <p id="feedback-text"></p>
+      </section>
+
+      <button id="next-button" class="next-button" type="button" disabled>Next Question</button>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

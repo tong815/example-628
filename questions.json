@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "question": "What is 8 + 7?",
+    "options": ["13", "14", "15", "16"],
+    "correctAnswer": "15",
+    "explanation": "8 + 7 = 15. You can make 10 first: 8 + 2 = 10, then add the remaining 5."
+  },
+  {
+    "id": 2,
+    "question": "Which number makes this equation true: 6 x __ = 42?",
+    "options": ["6", "7", "8", "9"],
+    "correctAnswer": "7",
+    "explanation": "6 x 7 = 42, so the missing number is 7."
+  },
+  {
+    "id": 3,
+    "question": "What is 3/4 of 20?",
+    "options": ["10", "12", "15", "18"],
+    "correctAnswer": "15",
+    "explanation": "One fourth of 20 is 5. Three fourths is 5 + 5 + 5, which equals 15."
+  },
+  {
+    "id": 4,
+    "question": "A rectangle is 9 cm long and 4 cm wide. What is its area?",
+    "options": ["13 square cm", "26 square cm", "36 square cm", "40 square cm"],
+    "correctAnswer": "36 square cm",
+    "explanation": "Area of a rectangle is length x width. 9 x 4 = 36, so the area is 36 square cm."
+  },
+  {
+    "id": 5,
+    "question": "What is 45 divided by 5?",
+    "options": ["8", "9", "10", "11"],
+    "correctAnswer": "9",
+    "explanation": "45 divided by 5 is 9 because 5 x 9 = 45."
+  }
+]
